@@ -1,0 +1,9 @@
+var reqemler=[45,48,4,848,4548,48,4,584,8,48,45,1,5,,9,8,7,654,65,46,21,4,465,465];
+function f(x){
+  for(i=0; i<reqemler.length; i++){
+    if(x===reqemler[i]){
+      console.log(x+" ededinin siradaki indeksi "+i+"");
+    }   
+  }
+}
+f(4);

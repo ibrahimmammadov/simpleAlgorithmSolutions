@@ -1,0 +1,16 @@
+function f(soz){
+   var yoxla = true;
+   for( var i = 0; i <= soz.length-1; i++){
+    if( soz[i] !== soz[soz.length - i-1]){
+      yoxla = false;  
+     }
+    }
+    if(yoxla === false){
+      console.log('Daxil edilen soz palindrome deyil');   
+    }
+    else{
+    console.log('Daxil edilen soz palindrome dur');
+    }
+}
+
+f('lol');

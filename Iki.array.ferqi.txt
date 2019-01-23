@@ -1,0 +1,16 @@
+var a=[40,550,60];
+var b=[60,55,19];
+var cem=0;
+var cem2=0;
+  for(i=0;i<a.length;i++){
+    cem+=a[i];
+  }
+  for(i=0;i<b.length;i++){
+   cem2+=b[i];}
+
+if(cem>cem2){
+  console.log("a>b");
+}
+else{
+  console.log("a<b");
+}

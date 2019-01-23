@@ -1,0 +1,8 @@
+var cem=0;
+function f(x){
+  for(i=1;i<=x;i++){
+    cem+=i*i;
+  }
+console.log(cem);
+}
+f(5);

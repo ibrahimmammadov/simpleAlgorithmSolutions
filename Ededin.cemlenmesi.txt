@@ -1,0 +1,9 @@
+var ad="111";
+var iki =0;
+
+for (var i = 0; i < ad.length; i++){
+  
+   iki=iki+parseInt(ad[i]);
+}
+
+console.log(iki);

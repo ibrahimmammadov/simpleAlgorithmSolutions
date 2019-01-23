@@ -1,0 +1,6 @@
+function f(x){
+  for(i=0;i<11;i++){
+    console.log(i*(x))
+  }
+}
+  f(9)

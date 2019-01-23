@@ -1,0 +1,18 @@
+function f(x){ 
+    var a="";
+    var b=" ";
+  if(x.length%2==0){
+    for(i=0;i<x.length;i++){
+      a=a+x.charAt(i);
+      if(x.length/(i+1)==2){
+        a=a+b;
+      }      
+    }console.log(a);
+  }
+    else if(x.length%2==1){
+      console.log("Daxil etdiyiniz soz cut reqemli deyil");
+    } 
+    
+  }
+
+f("musteqil");

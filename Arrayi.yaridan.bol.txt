@@ -1,0 +1,13 @@
+var reqemler = [454,48,5,4,8,9,7,362,5,45,7,9,11,19]
+ a=""
+ b=""
+ {   
+for (var i = reqemler.length-1;  i>=(reqemler.length-1)/2; i--){
+  a+=reqemler[i]+" ";
+}
+  
+for(var j=(reqemler.length-1)/2-1;i>=0;i--){
+  b+=reqemler[i]+" ";
+
+}console.log(a+"   "+b);
+ }

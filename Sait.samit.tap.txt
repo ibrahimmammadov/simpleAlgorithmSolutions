@@ -1,0 +1,22 @@
+var samit=['b','c','d','f','g','j','l','h','m','n','r','t','y','p','s','k','x','v','z'];
+var sait=['a', 'ý', 'ö', 'e','u','i','o', 'ü'];
+var cem1=0;
+var cem2=0;
+var y=[];
+function f(x){
+  y=x;
+  for(i=0;i<x.length;i++){
+    for(a=0;a<samit.length;a++){
+      if(y[i]==samit[a]){
+        cem1=cem1+1
+      }
+    }
+  }    for(i=0;i<x.length;i++){
+    for(b=0;b<sait.length;b++){
+      if(y[i]==sait[b]){
+        cem2=cem2+1
+      }
+    }
+  }  console.log("Sozde "+cem1+" eded samit, "+cem2+" eded sait var")
+}
+f("ibrahim");

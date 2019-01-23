@@ -1,0 +1,10 @@
+var cem=0;
+function f(x,y){
+  if(x<y){
+    for(x;x<=y;x++){
+      cem=cem+x;
+    }
+  }
+  console.log(cem);
+}
+f(10,12);

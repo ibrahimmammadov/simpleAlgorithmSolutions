@@ -1,0 +1,20 @@
+var toplam=0;
+var hasil=1;
+
+function fh(x){
+  for(i=1;i<=x;i++){
+    hasil*=i
+  }
+  return hasil;
+}
+  function ft(x){
+   for(i=0;i<=x;i++){
+    toplam+=i; 
+  }
+  return toplam;
+}
+
+function netice(x){
+  return fh(x)-ft(x);
+}
+console.log(netice(2))

@@ -1,0 +1,9 @@
+var ad="azerbaycan";
+var iki ="";
+
+for (var i = 1; i < ad.length-1; i++){
+  
+   iki=iki+ad.charAt(i);
+}
+
+console.log(iki);
