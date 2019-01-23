@@ -1,6 +1,6 @@
 # my first task
 
-## simpleAlgorithmSolutions
+## simpleAlgorithmSolutions (javascript)
 
 ### Sample
 - Daxil edilən ədədin vurma cədvəlini çap edən funksiya.
